@@ -12,7 +12,9 @@
     --laranja: #EB9800;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002f52;
+    --preto: #000000;
     --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Josefin Sans";
     
 }
 
@@ -23,5 +25,6 @@ body{
     font-weight: 400;
     
 }
+
 
 
