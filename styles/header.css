@@ -66,7 +66,9 @@
     display: none;
 }
 
-
+.container__texto{
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -116,6 +118,28 @@
 
     .opcao__botao{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .container__texto{
+        display: block;
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho{
+        padding: 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
     }
 }
 
